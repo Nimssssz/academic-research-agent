@@ -2,7 +2,8 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 from typing import List, Optional, Dict, Any
 
-from agent import research  # import your function from agent.py
+from fastapi.middleware.cors import CORSMiddleware
+from agent import research
 
 app = FastAPI(
     title="Academic Research Agent API",
