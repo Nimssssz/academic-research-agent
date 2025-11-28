@@ -11,6 +11,16 @@ app = FastAPI(
     version="1.0.0",
 )
 
+
+# Allow frontend to call this API (CORS)
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # later you can restrict to your frontend domain
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 class ResearchRequest(BaseModel):
     query: str
     max_per_db: int = 10
