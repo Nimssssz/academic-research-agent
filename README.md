@@ -1,7 +1,10 @@
-      ╔══════════════════════════╗
-      ║      ACADEMICAI 🧠       ║
-      ╚══════════════════════════╝
-        Automated Research Agent
+<div align="center">
+╔══════════════════════════╗
+║      ACADEMICAI 🧠       ║
+╚══════════════════════════╝
+  Automated Research Agent
+</div>
+
         
 **AcademicAI** is an automated research engine that retrieves, analyzes and summarizes academic papers using open-access scholarly databases.
 
